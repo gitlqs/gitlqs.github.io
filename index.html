@@ -1,5 +1,200 @@
-<html>
-<body>
-abcdefg
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Qs Studio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" id="oceanwp-google-font-permanent-marker-css" href="//fonts.googleapis.com/css?family=Permanent+Marker%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&amp;subset=latin&amp;ver=5.7.2" type="text/css" media="all">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+            div.header {
+                padding: 40px;
+                text-align: center;
+                background: #c4c4c4;
+                color: white;
+            }
+            div.header h1 {
+                font-size: 60px;
+                font-family: Permanent Marker;
+                letter-spacing: 3px;
+                text-transform:capitalize;
+            }
+            div.navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+            div.navbar a {
+                float: left;
+                color: white;
+                display: block;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            div.navbar a.right{
+                float: right;
+            }
+            div.navbar a:hover{
+                background-color: #ddd;
+                color: black;
+            }
+            div.row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            div.left_col{
+                flex: 40%;
+                padding: 20px;
+                text-align: left;
+            }
+            div.left_col p{
+                line-height: 30px;
+                text-align: justify;
+            }
+            div.right_col{
+                flex: 40%;
+                padding: 20px;
+                text-align: justify;
+            }
+            div.left_blank{
+                flex: 10%;
+            }
+            div.right_blank{
+                flex: 10%;
+            }
+            div.fakeimg{
+                background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+            }
+            @media screen and (max-width: 700px){
+                div.row{
+                    flex-direction: column;
+                }
+            }
+            @media screen and (max-width: 400px){
+                div.navbar a{
+                    float: none;
+                    width: 100%;
+                }
+            }
+
+            div.footer{
+                padding: 20px;
+                text-align: center;
+                background-color: #ddd;
+            }
+            div.name_and_title{
+                /*font-family: "Old Standard TT", Sans-serif;*/
+                text-align: center;
+                padding: 30px;
+            }
+            div.container{
+                width: 100%;
+                background-color: #ddd;
+                text-align: right;
+            }
+            div.skills{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+                color: white;
+            }
+            div.computer{width: 100%; background-color: black;}
+            div.cad{width: 95%; background-color: black;}
+            div.cam{width:75%; background-color: black;}
+            div.office{width: 90%; background-color: black;}
+            div.python{width:90%; background-color: black;}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Qs Studio</h1>
+        </div>
+        <div class="navbar">
+            <a herf="#">Home</a>
+            <a herf="#">Post</a>
+            <a herf="#">About Me</a>
+            <a herf="#">Contact</a>
+            <a herf="#" class="right">Search</a>
+        </div>
+        <div class="name_and_title">
+            <h1>Qiushi L.</h1>
+            <h3>Mechanical Engineer</h3>
+        </div>
+        <div class="row">
+            <div class="left_blank"></div>
+            <div class="left_col">
+                <div>
+                    <h1>ABOUT ME</h1>
+                    <p>With more than 5 years of CAD product design experience, 2 years of ROS robotic development experience, and more than 5,000 lines of Python coding experience, I am seeking a position that offers challenging job opportunity focused on CAD, CAM, robotics, and manufacturing automation that will utilize strong technical and analytical skills.</p>
+                </div>
+                <h1>EXPERIENCE</h1>
+                <div>
+                    <h2>Hongtu Custom Broker</h2>
+                    <h4>Jun 2018 - Sept 2018, Robotic Process Automation Developer</h4>
+                    <p>Developed a GUI based RPA application using Python to effectively reduce repetitive work for the officers. The program reads data from spreadsheets and input the data into an online database system through web browser. With computer vision library like OpenCV, it monitors the display and detects UI elements on the screen, then simulates mouse and keyboard events on desired position to finish the job. </p>
+                </div>
+                <div>
+                    <h2>Buffalo Manufacturing Works by EWI</h2>
+                    <h4>Jan 2018 - Jun 2018, QA Automation Engineer</h4>
+                    <p>Help Buffalo Manufacturing Works to finish the QA process automatically. Under the ROS (Robot Operating System) environment, done programmable path planning using MoveIt API for Python, and tested using a UR3 robot.</p>
+                </div>
+                <div>
+                    <h2>Bridging the Gap Africa</h2>
+                    <h4>Jan 2017 - May 2017, Mechanical Design Engineer</h4>
+                    <p>Designed a pure mechanical rock drill that allow workers in Kenya, Africa to perform drilling for footbridge construction without electricity. Designed and simulated using Autodesk Inventor.</p>
+                </div>
+
+            </div>
+            <div class="right_col">
+                <div>
+                    <h1>EDUCATION</h1>
+                    <div>
+                        <h2>The State University of New York at Buffalo</h2>
+                        <h4>Jan 2015 - May 2018</h4>
+                        <p>Bachelor of Science (B.S.) in Mechanical Engineering (GPA 3.7/4.0)</p>
+                    </div>
+                    <div>
+                        <h2>University of Toronto</h2>
+                        <h4>Sept 2018 - Nov 2019</h4>
+                        <p>Master of Engineering (M.Eng.) in Mechanical Engineering</p>
+                    </div>
+                </div>
+                <div class="skills_title">
+                    <h1>SKILLS</h1>
+                    <p>Basic Computer Skill</p>
+                    <div class="container">
+                        <div class="skills computer">100%</div>
+                    </div>
+                    <p>Computer Aided Design</p>
+                    <div class="container">
+                        <div class="skills cad">95%</div>
+                    </div>
+                    <p>Computer Aided Manufacturing</p>
+                    <div class="container">
+                        <div class="skills cam">75%</div>
+                    </div>
+                    <p>Microsoft Office</p>
+                    <div class="container">
+                        <div class="skills office">90%</div>
+                    </div>
+                    <p>Python Programming</p>
+                    <div class="container">
+                        <div class="skills python">90%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_blank"></div>
+        </div>
+        <div class="footer">
+            <p>© QsStudio 2021 All Rights Reserved</p>
+        </div>
+    </body>
 </html>
